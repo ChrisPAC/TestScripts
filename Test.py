@@ -15,3 +15,9 @@ plt.plot(x, y)
 
 z = sc.cos(x)
 plt.plot(x, z)
+
+a = sc.tan(x)
+
+plt.plot(x,a)
+
+plt.axis([0,5*sc.pi,-1,1])
