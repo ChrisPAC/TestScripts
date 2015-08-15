@@ -12,3 +12,6 @@ import matplotlib.pyplot as plt
 x = sc.arange(0, 5*sc.pi, 0.1);
 y = sc.sin(x)
 plt.plot(x, y)
+
+z = sc.cos(x)
+plt.plot(x, z)
