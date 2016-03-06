@@ -1,0 +1,12 @@
+Test R Markdown HTML
+===================
+
+
+```{r}
+library(ggplot2)
+library(dplyr)
+summary(mtcars)
+mtcars %>% ggplot()  %>% + theme_minimal() %>%  + geom_point(aes(mpg,wt))
+```
+
+
